@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+:root{
+    --main-font: 'Roboto', sans-serif;
+    --bold: font-weight: 700;
+    --regular: font-weight: 400;
+}
+
+/*Desktop*/
+.Display{
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700;
+    letter-spacing: -1,2;
+    font-family: var(--main-font);
+}
+
+.Heading-L{
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 700;
+    letter-spacing: -1;
+    font-family: var(--main-font);
+}
+
+.Heading-M{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: -0,8;
+    font-family: var(--main-font);
+}
+
+.Heading-S{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    letter-spacing: -0,6;
+    font-family: var(--main-font);
+}
+
+.Heading-XS{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: var(--main-font);
+}
+
+.Subheading{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: var(--main-font);
+}
+
+.Body-M{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--main-font);
+}
+
+
+
+/*Celulares */
+@media (max-width : 450px) {
+    .t-Display{
+        font-size: 40px;
+        line-height: 44px;
+        font-weight: 700;
+        letter-spacing: -1,2;
+        font-family: var(--main-font);
+    }
+
+    .Heading-L{
+        font-size: 32px;
+        line-height: 36px;
+        font-weight: 700;
+        letter-spacing: -1;
+        font-family: var(--main-font);
+    }
+
+    .Heading-M{
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 700;
+        letter-spacing: -0,8;
+        font-family: var(--main-font);
+    }
+
+    .Heading-S{
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+        letter-spacing: -0,6;
+        font-family: var(--main-font);
+    }
+
+    .Heading-XS{
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        font-family: var(--main-font);
+    }
+
+    .Subheading{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        font-family: var(--main-font);
+    }
+
+    .Body-M{
+        font-size: 16px;
+        line-height: 24px;
+        font-family: var(--main-font);
+    }
+    
+
+}
+

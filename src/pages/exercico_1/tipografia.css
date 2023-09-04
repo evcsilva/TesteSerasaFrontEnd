@@ -1,0 +1,84 @@
+
+@charset "UTF-8";
+@import url(../../componentes/Cores/index.css);
+@import url(../../componentes/Tipografia/index.css);
+
+
+
+.t-tela{
+    background-color: var(--light-high);
+    height: 100%;
+    padding-top: 0%;
+}
+
+
+.t-inferior {
+    width: 100%;
+    margin-top: 150px;
+    margin-left: 5%;
+}
+
+.t-div1{
+    width: 100%;
+    vertical-align: top;
+}
+
+.t-div2{
+    width: 100%;
+    vertical-align: top;
+}
+
+.t-div3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.t-div4{
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+
+}
+
+.t-table{
+    vertical-align: center;
+    text-align: left;
+    width: 85%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+
+
+ th,td{
+    border-bottom: 1px solid #dadada;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+
+
+
+tbody tr{
+    background-color: var(--light-solid);
+
+}
+
+
+
+
+@media (min-width: 800px){
+    .t-div1{
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .t-div2{
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+}
+
+
